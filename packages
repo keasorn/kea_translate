@@ -1,0 +1,7 @@
+meteor add twbs:bootstrap
+meteor add iron:router
+meteor add accounts-base
+meteor add accounts-password
+meteor add themeteorchef:bert
+meteor add session
+meteor add meteortoys:allthings

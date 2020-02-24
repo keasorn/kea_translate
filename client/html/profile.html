@@ -1,0 +1,25 @@
+<template name="profile">
+<h1>Hello PROFILE</h1>  
+<!--
+{{>student_form}}
+{{>home}}
+-->
+<div id="profile-wrap">
+    <center>
+        {{#with UserImages}}
+
+        <img src="{{image}}" alt="" class="profile-img">
+        {{else}}
+
+        <img src="github.svg" alt="" class="profile-img">
+        <form action="" class="edit-profile" enctype="multipart/form-data">
+            <label for="profileImage">Choose profile image</label>
+            <span id="filename"></span>
+            <input type="file" class="black profileImage" id="profileImage" name="profileImage">
+            <button type="submit" ></button>
+        </form>
+        {{/with}}
+        <h1>{{username}}</h1>
+    </center>
+</div>
+</template>

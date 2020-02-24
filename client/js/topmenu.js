@@ -1,0 +1,4 @@
+Template.sidebar.rendered = function (){ 
+
+}
+ 

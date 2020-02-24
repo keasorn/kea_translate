@@ -1,0 +1,21 @@
+<template name="home">
+    <!--<h2 class="text-center">បកប្រែពីពាក្យគន្លឺះពីភាសាអង់គ្លេស ទៅ ភាសាខ្មែរ</h2>  -->
+    <h2></h2>
+    <form action="" id="getTranslate" >
+        <div class="col-md-4 ">
+            <label for="en_keyword">ពាក្យគន្លឺះជាភាសារអង់គ្លេស </label>
+            <input type="text" name="en_keyword" id="en_keyword" required class="form-control" placeholder="Keyword">
+            <div class="text-right">
+                <input type="submit" value="ស្វែងរក" class="btn btn-md btn-default">
+            </div>
+        </div>
+    </form>
+    <div class="col-md-8">
+        <label for="get_translate">លទ្ធផលស្វែងរក៖ <span id="keyword" style="font-size: 20px;"></span></label>
+        <p name="get_translate">
+            <ol start="1" id="get_translate">
+            
+            </ol>
+        </p>
+    </div>
+</template>
